@@ -2,14 +2,14 @@
     "name": "pxt-myEvents",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "myEvents.ts"
+        "myEvents.ts",
+        "myEvents.cpp"
     ],
     "testFiles": [
         "test.ts"
