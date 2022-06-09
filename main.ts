@@ -1,6 +1,2 @@
-myBlocks.onMyEvent(512, 0, function () {
-    basic.showIcon(IconNames.Yes)
-})
-input.onButtonPressed(Button.A, function () {
-    myBlocks.fireMyEvent(512, 0)
-})
+basic.showNumber(myEvents.convertTemperature(input.temperature(), TempConvertType.CtoF))
+myEvents.fireMyEvent(0, 0)
